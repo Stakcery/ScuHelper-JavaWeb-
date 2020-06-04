@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="com.Stackery.dao.UserDaoTest" time="5.553" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="F:\java\jdk1.8.0\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\GitHub\mycrawl"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\GitHub\mycrawl"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="F:\java\jdk1.8.0\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\YANGWE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="E:\IntelliJ IDEA 2019.3.4\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="E:\IntelliJ IDEA 2019.3.4\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="F:\java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;G:\xshell\;G:\xftp\;C:\Users\Yangwenhao\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Yangwenhao\AppData\Local\Programs\Python\Python37-32\;G:\shabi\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;G:\TEMP\mysql\mysql-8.0.16-winx64\bin;C:\Users\Yangwenhao\AppData\Local\Google\Chrome\Application\chromedriver.exe;F:\java\jdk\bin;G:\putty\;C:\Program Files\Tesseract-OCR;G:\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;G:\nodejs;G:\TortoiseGit\bin;&quot;E:\Tomcat 8.0\bin;E:\Tomcat 8.0\lib&quot;;G:\Python\Python36\Scripts\;G:\Python\Python36\;C:\Users\Yangwenhao\AppData\Local\Microsoft\WindowsApps;C:\Users\Yangwenhao\AppData\Local\GitHubDesktop\bin;G:\Nmap;E:\IntelliJ IDEA 2019.3.4\bin;;C:\Program Files\Tesseract-OCR;C:\Users\Yangwenhao\AppData\Roaming\npm;G:\WebStorm 2020.1\bin;;F:\Fiddler Web Debugger 5.0.2019.2 中文版(第四版);."/>
+    <property name="maven.conf" value="E:\IntelliJ IDEA 2019.3.4\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="idea.version2019.3.4" value="true"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Yangwenhao"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Yangwenhao"/>
+    <property name="java.class.path" value="E:\IntelliJ IDEA 2019.3.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;E:\IntelliJ IDEA 2019.3.4\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="F:\java\jdk1.8.0\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.4 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="F:\java\jdk1.8.0\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="F:\java\jdk1.8.0\jre\lib\resources.jar;F:\java\jdk1.8.0\jre\lib\rt.jar;F:\java\jdk1.8.0\jre\lib\sunrsasign.jar;F:\java\jdk1.8.0\jre\lib\jsse.jar;F:\java\jdk1.8.0\jre\lib\jce.jar;F:\java\jdk1.8.0\jre\lib\charsets.jar;F:\java\jdk1.8.0\jre\lib\jfr.jar;F:\java\jdk1.8.0\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\IntelliJ IDEA 2019.3.4\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.Stackery.dao.UserDaoTest" name="queryUserByUsername" time="5.504"/>
+  <testcase classname="com.Stackery.dao.UserDaoTest" name="updateNameByUsername" time="0.049"/>
+</testsuite>
