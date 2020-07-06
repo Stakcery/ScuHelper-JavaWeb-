@@ -47,13 +47,13 @@ public class MyConstant {
      */
     /**
      */
-    public static final String SERVER_KEY = "SCU91986T045109fb52c851f41a9d5626cdd7456a5e82ff7a74527";
-    public static final String USERNAME = "2019141530103";
-    public static final String PASSWORD = "245574";
+    public static final String SERVER_KEY = "sadsadsadsa";
+    public static final String USERNAME = "sadsadasdsa";
+    public static final String PASSWORD = "asdsa";
     /**
      * 超星学习通API
      */
-    public static final String USERNAME_CX = "18328304665";
+    public static final String USERNAME_CX = "adssadsadsad";
     public static final String PASSWORD_CX = "????";
     public static final String SUPER_STUDY_LOGIN_URL = "https://passport2-api.chaoxing.com/v11/loginregister";
     public static final String GET_UPLOAD_PICTURE_TOKEN_URL = "https://pan-yz.chaoxing.com/api/token/uservalid";
