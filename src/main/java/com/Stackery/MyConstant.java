@@ -62,13 +62,13 @@ public class MyConstant {
     /**
      *  SMTP默认配置区域
      */
-    public static final String AUTH_CODE = "mixhkqoqgsziiaib";
-    public static final String SEND_USER = "1078433422@qq.com";
+    public static final String AUTH_CODE = "sadsadsadsa";
+    public static final String SEND_USER = "sadsasadsad";
 
     /**
      * 百度API AK
      */
-    public static final String AK_VALUE = "Gy99R4ShwE1jhdUsbGkXjFP8wzMMboCF";
+    public static final String AK_VALUE = "Gy99R4ShwE1jhdUsbasdsaasaFP8wzMMboCF";
 
 
 
